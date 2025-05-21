@@ -4,13 +4,13 @@
 set -eu
 
 # Define paths and variables
-bam=~/Documents/HoppyYeast/HY123/ploidyAnalysis/test_data_gene_cn_workflow/HY123-sorted-rmdups.bam
-reference=~/Documents/HoppyYeast/HY123/ploidyAnalysis/test_data_gene_cn_workflow/S288C_R64-3-1-chr_renamed.fasta
-gff=~/Documents/HoppyYeast/HY123/ploidyAnalysis/test_data_gene_cn_workflow/S288C_R64-3-1-chr_renamed.gff
-dict=~/Documents/HoppyYeast/HY123/ploidyAnalysis/test_data_gene_cn_workflow/S288C_R64-3-1-chr_renamed.dict
-gatk=/Users/carlsberg/Documents/Software/gatk-4.6.2.0/gatk
-outdir=~/Documents/HoppyYeast/HY123/ploidyAnalysis/test_data_gene_cn_workflow/results/
-expected_ploidy=4.0
+bam=/path/to/bam
+reference=/path/to/fasta_reference
+gff=/path/to/gff
+dict=/path/to/dict
+gatk=/path/to/gatk_executable
+outdir=/path/to/output_directory
+expected_ploidy=
 highlight_genes=
 
 # Run the pipeline
