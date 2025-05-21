@@ -136,7 +136,7 @@ pip install .
 >
 > This installs your local workflow code and registers the `gene-copy-number` command-line tool. Without this step, the CLI won't be available.
 
-## 🔧 Automatic File Indexing
+## Automatic File Indexing
 
 The workflow automatically handles the creation of required reference and alignment indexes:
 
