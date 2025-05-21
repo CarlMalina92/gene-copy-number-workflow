@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Test outputs
+*.bai
+*.png
+*.tsv
+
+# Environment
+.env
+.venv
+*.conda
+*.lock
+
+# Logs and runtime
+*.log
+*.tmp
+
+# OS files
+*.DS_Store
+
+# IDE/editor config
+.vscode/
+.idea/

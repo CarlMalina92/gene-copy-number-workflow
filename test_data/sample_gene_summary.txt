@@ -1,0 +1,6 @@
+Gene	Sample_Mean_Coverage
+EGFR	120
+MYC	200
+PTEN	30
+TP53	90
+GAPDH	100
