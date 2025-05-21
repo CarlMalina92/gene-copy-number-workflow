@@ -33,7 +33,7 @@ Generates plots and summary outputs.
 - Highlight genes of interest.
 - Export significant gene lists.
 
-### 📁 Outputs
+### Outputs
 
 - A `.tsv` file containing gene name, estimated copy number, z-score, p-value, adjusted p-value, and genomic position 
 - A plot of genome-wide estimated copy numbers, highlighting significance
@@ -155,7 +155,7 @@ The workflow automatically handles the creation of required reference and alignm
   gatk BuildBamIndex -I sample.bam
   ```
 
-## 🧪 Testing the Workflow
+## Testing the Workflow
 
 After installation, you can test the workflow using the example data:
 
@@ -175,7 +175,7 @@ You should see:
 
 For manual testing, you can also inspect `test_data/test_output_plot.png`.
 
-## 🔬 Testing Data Preprocessing
+## Testing Data Preprocessing
 
 You can validate the GFF and BAM processing logic using:
 
