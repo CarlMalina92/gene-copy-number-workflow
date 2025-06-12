@@ -10,7 +10,7 @@ dist/
 
 # Test outputs
 *.bai
-*.png
+test_data/*.png
 *.tsv
 
 # Environment
